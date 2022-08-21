@@ -14,9 +14,8 @@ export default function HeadComponent() {
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://buildspace.so/" />
-      <meta property="twitter:title" content="Solana Pay Store" />
-      <meta property="twitter:description" content="Buy items on my store using Solana Pay!" />
-      <meta property="twitter:image" content="https://cdn.buildspace.so/courses/solana-pay/metadata.png" />
-    </Head>
+      <meta property="twitter:title" content="Blxckout - The Stax Store" />
+      <meta property="twitter:description" content="Buy items with STAX using solana pay!" />
+      </Head>
   );
 }
