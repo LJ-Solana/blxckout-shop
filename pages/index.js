@@ -59,12 +59,13 @@ const App = () => {
         </header>
 
         <main>
-          <p className="header" alignment="left">Blxckout Products</p>
+          <p className="header">Blxckout Products</p>
           {creating && <CreateProduct />}
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
-          <p className="header" alignment="left">Partner Products</p>
 
+          <p className="header" py="20px" px="20px">Partner Products</p>
           <p>Coming Soon..</p>
+
         </main>
       </div>
     </div>
