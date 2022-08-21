@@ -64,8 +64,7 @@ const App = () => {
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
           <p className="header" alignment="left">Partner Products</p>
 
-          {creating && <CreateProduct />}
-          {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
+          <p>Coming Soon..</p>
         </main>
       </div>
     </div>
